@@ -5,9 +5,12 @@
    By leveraging data on total billing, patients counts, average patient age and average lenght of stay(ALOS), this project seeks to identify trends, 
    optimize resource allocation and support data-driven decision-making for healthcare administrators and stakeholders.
 
-### SOFTWARE USED
-    * Excel
-    * Power Bi
+### TECHNOLOGY & TOOLS USED
+    - **Power BI Desktop** (data modeling, DAX, visuals)
+    - **Power Query** (ETL / cleaning)
+    - **Excel** (.xlsx source data)
+    - DAX for measures and calculated tables
+
 
 ### STEPS FOLLOWED:
     * Step 1: Load data into power bi desktop, dataset is an xlsx file.
@@ -24,7 +27,7 @@
                - DAY = FORMAT('DATE TABLE'[Date],"DDDD")
                - YEAR = YEAR('DATE TABLE'[Date])
 
-### USE DAX(DATA ANALYSIS EXPRESSION) TO CREATE MEASURES FOR KEY METRICS, SUCH AS:
+### KEY METRIC & DAX MEASURES
     * Step 7: TOTAL BILLING = SUM(Data[Billing Amount])
 
     * Step 8: TOTAL COUNT OF PATIENTS = COUNT(Data[Patient ID])
@@ -91,6 +94,12 @@
       demographics.
     * The visual for patient load by Hospital illustrates that Houston Methodist Hospital handled the highest patient loads in the region. This highlights
       potential challenges, such as strain on resources and staffing.
+    * Test results and condition patterns vary noticeably by age, gender, and blood type → potential for targeted clinical protocols.
+
+### 🚀 How to Use / Explore
+    1. Clone the repoBashgit clone https://github.com/Josephine-analyst/Healthcare-Analysis-Project.git
+    2. Open pbix/Healthcare-Analysis-Project.pbix in Power BI Desktop
+    3. Place the original .xlsx in data/raw/ if you want to refresh
 
 ### CONCLUSION
     This healthcare analysis project examined patient data to uncover pattern and insights across multiple dimensions, including patient count by admission
