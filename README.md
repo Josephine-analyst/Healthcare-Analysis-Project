@@ -4,6 +4,7 @@
    This project aims to analyze key healthcare metrics to gain insights into hospital operations, patient demographics and financial performance.
    By leveraging data on total billing, patients counts, average patient age and average lenght of stay(ALOS), this project seeks to identify trends, 
    optimize resource allocation and support data-driven decision-making for healthcare administrators and stakeholders.
+   
 <img width="1366" height="768" alt="Screenshot (83)" src="https://github.com/user-attachments/assets/ca406f9d-f688-4361-b62a-79beba53b1f6" />
 
 ### TECHNOLOGY & TOOLS USED
@@ -37,7 +38,7 @@
 
     * Step 10: AVERAGE BILLING AMOUNT = AVERAGE(Data[Billing Amount])
 
-    * Step 11: AVERAGE LENGHT OF STAY = AVERAGE(Data[Length of Stay])
+    * Step 11: AVERAGE LENGTH OF STAY = AVERAGE(Data[Length of Stay])
 
     * Step 12: COUNT OF NORMAL TEXT RESULTS = COUNTROWS(FILTER('Data','Data'[Test Results]="Normal"))
 
