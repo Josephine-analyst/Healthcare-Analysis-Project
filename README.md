@@ -86,6 +86,24 @@
     2. Add a field to the slicer: In the fields pane, locate the dataset and drag the field you want to filter(Year) into the 
        values area of the slicer.
     3. Resize and format the slicers to control user interactions.
+    
+## Dashboard Screenshots
+
+Key visuals from the Power BI report:
+
+![Patient Count by Gender - Donut Chart](Screenshot%20(71).png)
+
+![Admission Type Distribution - Treemap](Screenshot%20(74).png)
+
+![Billing Trend Over Months - Line Chart](Screenshot%20(75).png)
+
+![Blood Type vs Conditions - Stacked Column](Screenshot%20(76).png)
+
+![Billing by Provider - Stacked Column](Screenshot%20(81).png)
+
+![Patient Load per Hospital - Stacked Bar](Screenshot%20(82).png)
+
+![Condition Patterns by Demographics](Screenshot%20(83).png)
 
 ### KEY INSIGHTS
     * The predominance of elective admissions may indicate strong patient access to preventive or specialized care, but it also underscores the need
