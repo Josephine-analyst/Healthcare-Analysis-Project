@@ -4,6 +4,7 @@
    This project aims to analyze key healthcare metrics to gain insights into hospital operations, patient demographics and financial performance.
    By leveraging data on total billing, patients counts, average patient age and average lenght of stay(ALOS), this project seeks to identify trends, 
    optimize resource allocation and support data-driven decision-making for healthcare administrators and stakeholders.
+<img width="1366" height="768" alt="Screenshot (83)" src="https://github.com/user-attachments/assets/ca406f9d-f688-4361-b62a-79beba53b1f6" />
 
 ### TECHNOLOGY & TOOLS USED
     - **Power BI Desktop** (data modeling, DAX, visuals)
@@ -47,7 +48,7 @@
                 The analysis aggregates patients counts by gender to understand demographic distribution and its impact on hospital operations,
                 resource allocation and care delivery.
  <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/b099fb9e-0584-4b90-8b03-aac2482d7c17" />
-
+![Patient Count by Gender - Donut Chart](Screenshot%20(71).png)
     * Step 15: Count of Patient ID by admission <Treemap Chart>
                 The distribution of patients by admission type provide nsights into hospital operation, resource demands and patient care patterns.
  <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/98306a6e-3490-4ca5-88af-cbb458ef883b" />
